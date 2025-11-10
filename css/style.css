@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+}
+ /* Start of Navbar Section  */
+  .navbar a{
+    color: white;
+  }
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show{
+color: #ff305b;
+}
+nav .nav-link{
+    color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover{
+    color: #ff305b;
+}
+.bg-transparent{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/home.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+  
+     /* End of Navbar Section  */
+
+     /* Start of Home Section  */
+     #home{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/home.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+     }
+
+     .animation::after
+    {content: " ";
+        animation: typing 9s infinite;
+        animation-delay: -1ms;
+}
+
+@keyframes typing {
+  0%
+  {content: "D";
+}
+  2%
+  {content: "De";
+}
+  4%
+  {content: "Des";
+}
+  6%
+  {content: "Desi";
+}
+  8%
+  {content: "Desig";
+}
+  10%
+  {content: "Design";
+}
+  12%
+  {content: "Designe";
+}
+14%
+  {content: "Designer";
+}
+  16%
+  {content: "Designe";
+}
+  18%
+  {content: "Design";
+}
+  20%
+  {content: "Desig";
+}
+  22%
+  {content: "Desi";
+}
+  24%
+  {content: "Des";
+}
+  26%
+  {content: "De";
+}
+  28%
+  {content: "D";
+}
+  30%
+  {content: "";
+}
+  32%
+  {content: "D";
+}
+  34%
+  {content: "De";
+}
+36%
+  {content: "Dev";
+}
+  38%
+  {content: "Deve";
+}
+  40%
+  {content: "Devel";
+}
+ 42%
+  {content: "Develo";
+}
+  44%
+  {content: "Develop";
+}
+ 46%
+  {content: "Develope";
+}
+  48%
+  {content: "Developer";
+}
+  50%
+  {content: "Develope";
+}
+  52%
+  {content: "Develop";
+}
+ 54%
+  {content: "Develo";
+}
+  56%
+  {content: "Devel";
+}
+  58%
+  {content: "Deve";
+}
+  60%
+  {content: "Dev";
+}
+  62%
+  {content: "De";
+}
+  64%
+  {content: "D";
+}
+  66%
+  {content: "";
+}
+  
+} 
+     /* End of Home Section  */
+
+     /* Start of About Section  */
+     #About .about-photo::before{
+    position: absolute;
+    z-index: -5;
+    bottom: -25px;
+    left: -10px;
+    width: 95%;
+    height: 90%;
+    background-repeat: repeat;
+    content: "";
+    background-image: url(./../images/dots.png);
+}
+.about-content .hello{
+    border-left:5px solid #ff305b;
+    padding-left: 10px;
+}
+.about-content .paragraph{
+       border-bottom: 3px dotted black;
+}
+#About .btn{
+  background-color: #ff305b;
+  border: #ff305b 1px solid;
+}
+#About .btn a{
+  color: #fff;
+}
+#About .btn:hover{
+  background-color:#fff;
+  border: #ff305b 1px solid;
+}
+#About .btn a:hover {
+  color: #ff305b;
+} 
+     /* End of About Section  */
+
+     /* Start of Services Section  */
+     #Services  .line1{
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Services  .line2{
+        width: 100px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Services  .line3{
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Services i{
+        color: #ff305b;
+     }
+     #Services .table:hover{
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 15px;
+
+     }
+     /* End of Services Section  */
+
+     /* Start Portfolio of Section  */
+      #Portfolio  .line1 ,  #Portfolio  .line3{
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Portfolio  .line2{
+        width: 100px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+  
+    #Portfolio .nav-tabs{
+        border: none;
+     }
+     #Portfolio .nav-tabs .nav-link{
+        border: none;
+     }
+     #Portfolio .nav-tabs .nav-item.show .nav-link,
+      #Portfolio .nav-tabs .nav-link.active 
+     {
+        color: #ff305b;
+     }
+     #Portfolio .nav-link:focus,
+     #Portfolio .nav-link{
+    color: black;
+}
+     #Portfolio .nav-link:focus,
+     #Portfolio .nav-link:hover{
+    color: #ff305b;
+}
+
+.layer{
+    background-color: rgba(128, 128, 128, 0.744);
+    opacity: 0;
+    transition: 0.3s opacity;
+}
+.img-container{
+    position: relative;
+}
+.img-container .layer{
+position: absolute;
+inset: 0;
+background-color: rgba(128, 128, 128, 0.744);
+top: 0;
+transition: 0.3s;
+opacity: 0;
+}
+.img-container:hover .layer{
+    top: 0;
+    opacity: 1;
+}
+.table{
+   cursor: pointer;
+}
+
+  
+     /* End of Portfolio Section  */
+
+     /* Start of Counter Section  */
+     #Counter i{
+        color: #ff305b;
+     }
+     /* End of Counter Section  */
+
+     /* Start Feedback of Section  */
+     #Feedback .line4 , #Feedback .line6{
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Feedback  .line5{
+        width: 100px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+    .testmonial-content {
+    width: 50%;
+    background-color: #f1f1f1;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+     .testmonial-content::before {
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 100px;
+    background-color: #ff305b;
+    transform: translate(-180px, 20px) rotate(300deg);
+}
+.testmonial-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+    /* z-index: 666; */
+}
+    
+     /* End of Feedback Section  */
+
+     /* Start of Blog Section  */
+    #Blog .card-body a {
+        color: black;
+     }
+    #Blog .card-body a:hover {
+        color: #ff305b;
+     }
+     /* End of Blog Section  */
+
+     /* Start of Contact Section  */
+
+     
+     #Contact .btn{
+        background-color: #ff305b;
+     }
+     #Contact form .btn:hover{
+        background-color: red;
+     }
+     /* End of Contact Section  */
+
+     /* Start of Footer Section  */
+     /* End of Footer Section  */
