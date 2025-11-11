@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
  /* Start of Navbar Section  */
   .navbar a{
     color: white;
@@ -342,6 +348,37 @@ opacity: 0;
      #Contact form .btn:hover{
         background-color: red;
      }
+
+          #Contact  .line1 ,  #Contact  .line3{
+        width: 60px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     #Contact  .line2{
+        width: 100px;
+        height: 1px;
+        text-align: center;
+        background-color: #ff305b;
+     }
+     .help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+#Contact .contact-text {
+    padding-left: 350px;
+}
+
+
+@media screen and (max-width: 768px) {
+  #Contact .contact-text {
+    padding-left: 0;
+  }
+}
+  
      /* End of Contact Section  */
 
      /* Start of Footer Section  */

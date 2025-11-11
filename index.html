@@ -39,7 +39,7 @@
           <a class="nav-link" href="#Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Testimonial">Testimonial</a>
+          <a class="nav-link" href="#Feedback">Testimonial</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Blog">Blog</a>
@@ -495,10 +495,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="testmonial-img col-lg-3 col-sm-6 ">
+        <div class="testmonial-img col-lg-3 col-md-6 ">
                                     <img src="./images/feedback.jpg" class="" alt="">
         </div>
-        <div class="col-lg-9 col-sm-6 mt-3 ms-auto">
+        <div class="col-lg-9 col-md-6 mt-3 ms-auto">
             <div class="feed-text">
                              <h3>Alex ander</h3>
                              <div class="iconic d-flex flex-row pt-2">
@@ -521,14 +521,42 @@
         
     </div>
 </div>
+    <div class="carousel-item ">
+
+<div class="container">
+    <div class="row">
+        <div class="testmonial-img col-lg-3 col-md-6 ">
+                                    <img src="./images/profile.jpg" class="" alt="">
+        </div>
+        <div class="col-lg-9 col-md-6 mt-3 ms-auto">
+            <div class="feed-text">
+                             <h3>Peter John</h3>
+                             <div class="iconic d-flex flex-row pt-2">
+                                <i class="fa-solid fa-location-dot fs-6 mt-1 me-1"></i>
+                                <p class="fw-bold fs-6">UK</p>
+                             </div>
+                             <p class="lead fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, aspernatur temporibus mollitia facilis aliquam quae.</p>
+
+                             <div class="feed-rating">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-regular fa-star text-warning" ></i>
+                                
+                             </div>
+                             </div>
+                             </div>
+        </div>
+        
+    </div>
+</div>
    
     
 </div>
 
 <div class="carousel-indicators position-static mt-5 mb-0">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active border rounded-pill py-1" aria-current="true" style="background-color: #ff305b;" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#" data-bs-slide-to="#" class="border rounded-pill py-1" style="background-color: #ff305b;" aria-label="Slide 2">
-        <a href="#"></a>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="border rounded-pill py-1" style="background-color: #ff305b;" aria-label="Slide 2">
     </button>
   </div>
   
@@ -679,25 +707,76 @@
 
     <!-- Start of Contact Section -->
     
-     <div class="Contact py-5" id="Contact">
-        <h3 class="text-center text-black fs-2 fw-bolder py-3 mb-2">Contact Us</h3>
-       
-        <form action="" class="d-flex flex-column justify-content-center align-items-center">
-           <div class="contact-name mb-3">
-             <label for="">
-                <input type="text" placeholder="User-Name" class="py-2 px-3 border border-dark  rounded-2 me-2">
-            </label>
-            <label for="">
-                <input type="text" placeholder="User-Email" class="py-2 px-3 border border-dark  rounded-2">
-            </label>
-           </div>
-           <div class="contact-email">
-            <textarea name="Message" id="Message" rows="4" cols=57" placeholder="Message For Me" class="border border-dark  rounded-2"></textarea>
-           </div>
-                         <button class=" btn text-white fs-6 p-3 my-3">SEND MESSAGE</button>
+     <div class="contact-area py-5" id="Contact">
+        <div class="container mx-auto">
 
-        </form>
-    
+            <div class="row">
+            <div class="col-sm-12 col-lg-12">
+        <h3 class="text-center text-black fs-2 fw-bolder">Contact Us</h3>
+         <div class="lines d-flex flex-column justify-content-center align-items-center mb-4">
+            <div class="line1 my-1"></div>
+            <div class="line2"></div>
+            <div class="line3 my-1"></div>
+        </div>
+
+        </div>
+                </div>
+
+
+             <div class="row contact-text">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="contact-form">
+                        <form action="" id="contact-form ">
+                            <div class="message"></div>
+                            <div class="controls">
+
+                                <div class="row mb-4">
+
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="email" placeholder="E-mail" class="form-control" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Subject" class="form-control" required>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-12 col-sm-12 mb-4">
+                                        <div class="form-group">
+                                            <textarea name="message" id="form-message" class="form-control" rows="4" required placeholder="Message For Me"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="form-group">
+                                            <button class="btn text-white">SEND MESSAGE</button>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+             </div>
+
+
+        </div>
         </div>
 
     <!-- End of Contact Section -->
